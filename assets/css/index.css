@@ -381,9 +381,26 @@ li::marker {
 .my_company {
   font-family: futura-pt, sans-serif;
 	color: black;
+	font-weight: bolder;
 	font-size: 48px;
-	margin: 5% 0;
-  text-align: right;
+	padding: 2% 0;
+}
+
+.my_company_text {
+	width: 100%;
+	text-align: left;
+	text-justify: inter-character;
+	font-family: futura-pt, sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	font-style: normal;
+	color: black;
+	line-height: 36px;
+	letter-spacing: 1px;
+}
+
+pre {
+	white-space: pre-wrap;
 }
 
 #tim-sub-head {
