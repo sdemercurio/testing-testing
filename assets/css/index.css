@@ -388,7 +388,6 @@ li::marker {
 
 .my_company_text {
 	width: 100%;
-	text-align: left;
 	text-justify: inter-character;
 	font-family: futura-pt, sans-serif;
 	font-size: 35px;
