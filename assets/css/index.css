@@ -382,20 +382,9 @@ li::marker {
   font-family: futura-pt, sans-serif;
 	color: black;
 	font-weight: bolder;
-	font-size: 48px;
-	padding: 2% 0;
-}
-
-.my_company_text {
-	width: 100%;
-	text-justify: inter-character;
-	font-family: futura-pt, sans-serif;
-	font-size: 35px;
-	font-weight: 500;
-	font-style: normal;
-	color: black;
-	line-height: 36px;
-	letter-spacing: 1px;
+	font-size: 32px;
+	padding: 8% 0;
+	line-height: 2rem;
 }
 
 pre {
@@ -675,6 +664,27 @@ a {
 		font-size: 24px;
 		text-align: left;
 	}
+
+	.my_company {
+  font-family: futura-pt, sans-serif;
+	color: black;
+	font-weight: bolder;
+	font-size: 48px;
+	padding: 8% 0;
+	line-height: 3rem;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+	.my_company {
+		font-family: futura-pt, sans-serif;
+		  color: black;
+		  font-weight: bolder;
+		  font-size: 28px;
+		  padding: 8% 0;
+		  line-height: 2rem;
+	  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -765,6 +775,15 @@ a {
 	#footer-text {
 		font-size: 40px;
 	}
+
+	.my_company {
+		font-family: futura-pt, sans-serif;
+		  color: black;
+		  font-weight: bolder;
+		  font-size: 36px;
+		  padding: 8% 0;
+		  line-height: 2rem;
+	  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -871,4 +890,13 @@ a {
 	#team-workshops {
 		padding-bottom: 25px;
 	}
+
+	.my_company {
+		font-family: futura-pt, sans-serif;
+		  color: black;
+		  font-weight: bolder;
+		  font-size: 42px;
+		  padding: 8% 0;
+		  line-height: 2rem;
+	  }
 }
